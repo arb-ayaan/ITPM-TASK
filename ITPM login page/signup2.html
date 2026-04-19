@@ -1,50 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAILY TASK - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#f4f4f4">
+<body>
 
-    <table width="100%" height="600" border="0" cellpadding="0" cellspacing="0">
-        <tr>
-            <td align="center" valign="middle">
-                
-                <table bgcolor="#ffffff" border="0" cellpadding="40" cellspacing="0" width="400">
-                    <tr>
-                        <td align="center">
-                            <font face="Arial">
-                                <h1>DAILY TASK</h1>
-                                <p>Create your account</p>
-                                <br>
+    <div class="form-container">
+        <h1>DAILY TASK</h1>
+        <p>Create your account</p>
 
-                                <form>
-                                    <input type="text" name="username" placeholder="Username" size="40" style="padding: 5px;">
-                                    <br><br>
-                                    
-                                    <input type="email" name="email" placeholder="Email" size="40" style="padding: 5px;">
-                                    <br><br>
-                                    
-                                    <input type="password" name="password" placeholder="Password" size="40" style="padding: 5px;">
-                                    <br><br>
-                                    
-                                    <input type="password" name="confirm_password" placeholder="Confirm Password" size="40" style="padding: 5px;">
-                                    <br><br><br>
-                                    
-                                    <input type="submit" value="   Sign Up   ">
-                                </form>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <input type="text" name="username" placeholder="Username" required>
+            </div>
+            
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+            </div>
+            
+            <input type="submit" value="Sign Up" class="submit-btn">
+        </form>
 
-                                <br>
-                                <font size="3">
-                                    Already have an account? <a href="login.html">Login</a>
-                                </font>
-                            </font>
-                        </td>
-                    </tr>
-                </table>
-
-            </td>
-        </tr>
-    </table>
+        <div class="footer-text">
+            Already have an account? <a href="login1.html">Login</a>
+        </div>
+    </div>
 
 </body>
 </html>
