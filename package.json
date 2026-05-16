@@ -1,8 +1,8 @@
 {
-  "name": "itpm-json-task",
+  "name": "all-api",
   "version": "1.0.0",
   "description": "",
-  "main": "student.js",
+  "main": "todo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
